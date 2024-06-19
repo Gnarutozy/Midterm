@@ -1,0 +1,40 @@
+.form-column1 {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Adjust width as needed */
+  margin: 0 auto;
+}
+
+.form-column1 input {
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
+
+.form-buttons1 {
+  display: flex;
+  justify-content: space-between;
+}
+  
+.submit-button1 {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.submit-button1:hover {
+  background-color: darkred;
+}
+
+.cancel-button {
+  padding: 10px;
+  cursor: pointer;
+}
